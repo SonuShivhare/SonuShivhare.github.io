@@ -20,8 +20,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
-  background-size: cover;
+  /* background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background-size: cover; */
   left: 0;
   right: 0;
   top: 0;
@@ -94,9 +94,12 @@ h6 {
 }
 
 #header h2 span {
-  color: #fff;
+  color: #18d26e;
+  font-weight: 500;
+
+  /* color: #fff;
   border-bottom: 2px solid #18d26e;
-  padding-bottom: 6px;
+  padding-bottom: 6px; */
 }
 
 #header img {
@@ -1187,4 +1190,11 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+#vantawaves {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
 }
