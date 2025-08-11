@@ -363,7 +363,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(255, 255, 255, 0.01);
   padding: 30px;
 }
 
@@ -826,7 +826,7 @@ section .container {
 }
 
 .portfolio-wrap img {
-  width: auto;
+  width: 100%;
   height: auto;
   object-fit: cover;
   object-position: center;
